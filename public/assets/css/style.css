@@ -14,12 +14,12 @@ body {
 }
 
 a {
-    color: #ffc451;
+    color: black;
     text-decoration: none;
 }
 
 a:hover {
-    color: #ffd584;
+    color: white;
     text-decoration: none;
 }
 
@@ -732,7 +732,7 @@ section {
     background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
         url("../img/cta-bg.jpg") fixed center center;
     background-size: cover;
-    padding: 60px 0;
+    padding: 120px 0;
 }
 
 .cta h3 {
@@ -769,7 +769,7 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .portfolio #portfolio-flters {
@@ -803,7 +803,15 @@ section {
     margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.row-portfolio-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-item {
+    width: 320px;
     transition: 0.3s;
     position: relative;
     overflow: hidden;
@@ -811,69 +819,71 @@ section {
     background: rgba(21, 21, 21, 0.6);
 }
 
-.portfolio .portfolio-wrap::before {
+.portfolio-item::before {
     content: "";
     background: rgba(21, 21, 21, 0.6);
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    transition: all ease-in-out 0.3s;
-    z-index: 2;
-    opacity: 0;
-}
-
-.portfolio .portfolio-wrap img {
     transition: all ease-in-out 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-info {
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+.img-fluid-block {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.img-fluid {
+    width: 100%;
+    transition: all ease-in-out 0.3s;
+}
+
+.portfolio-info {
     z-index: 3;
     transition: all ease-in-out 0.3s;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 20px;
+    padding: 20px 10px;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h4 {
-    font-size: 20px;
-    color: #fff;
+.portfolio-info h4 {
+    font-size: 16px;
+    color: white;
     font-weight: 600;
 }
 
-.portfolio .portfolio-wrap .portfolio-info p {
+.portfolio-info h5 {
     color: rgba(255, 255, 255, 0.7);
-    font-size: 14px;
+    font-size: 12px;
+    margin-bottom: 7px;
     text-transform: uppercase;
     padding: 0;
-    margin: 0;
     font-style: italic;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
-    text-align: center;
-    z-index: 4;
+.portfolio-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
-    color: #fff;
-    margin: 0 5px 0 0;
-    font-size: 28px;
-    display: inline-block;
+.portfolio-links a {
+    font-size: 14px;
     transition: 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
-    color: #ffc451;
+.card-button {
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: #ffc451;
+    padding: 2px 9px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.card-button:hover {
+    color: white;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -881,17 +891,15 @@ section {
 }
 
 .portfolio .portfolio-wrap:hover img {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info {
-    opacity: 1;
-}
+*/
 
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
+/* .portfolio-details {
     padding-top: 40px;
 }
 
@@ -957,7 +965,7 @@ section {
 
 .portfolio-details .portfolio-description p {
     padding: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Counts
@@ -1440,7 +1448,6 @@ section {
 --------------------------------------------------------------*/
 #footer {
     background: black;
-    padding: 0 0 30px 0;
     color: #fff;
     font-size: 14px;
 }
@@ -1448,20 +1455,16 @@ section {
 #footer .footer-top {
     background: #151515;
     border-bottom: 1px solid #222222;
-    padding: 60px 0 30px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 90px;
 }
 
 #footer .footer-top .footer-info {
     margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-info h3 {
-    font-size: 28px;
-    margin: 0 0 20px 0;
-    padding: 2px 0 2px 0;
-    line-height: 1;
-    font-weight: 700;
-    text-transform: uppercase;
 }
 
 #footer .footer-top .footer-info h3 span {
@@ -1505,85 +1508,7 @@ section {
     padding-bottom: 12px;
 }
 
-#footer .footer-top .footer-links {
-    margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#footer .footer-top .footer-links ul i {
-    padding-right: 2px;
-    color: #ffc451;
-    font-size: 18px;
-    line-height: 1;
-}
-
-#footer .footer-top .footer-links ul li {
-    padding: 10px 0;
+.info div {
     display: flex;
-    align-items: center;
-}
-
-#footer .footer-top .footer-links ul li:first-child {
-    padding-top: 0;
-}
-
-#footer .footer-top .footer-links ul a {
-    color: #fff;
-    transition: 0.3s;
-    display: inline-block;
-    line-height: 1;
-}
-
-#footer .footer-top .footer-links ul a:hover {
-    color: #ffc451;
-}
-
-#footer .footer-top .footer-newsletter form {
-    margin-top: 30px;
-    background: #fff;
-    padding: 6px 10px;
-    position: relative;
-    border-radius: 4px;
-}
-
-#footer .footer-top .footer-newsletter form input[type="email"] {
-    border: 0;
-    padding: 4px;
-    width: calc(100% - 110px);
-}
-
-#footer .footer-top .footer-newsletter form input[type="submit"] {
-    position: absolute;
-    top: 0;
-    right: -2px;
-    bottom: 0;
-    border: 0;
-    background: none;
-    font-size: 16px;
-    padding: 0 20px;
-    background: #ffc451;
-    color: #151515;
-    transition: 0.3s;
-    border-radius: 0 4px 4px 0;
-}
-
-#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-    background: #ffcd6b;
-}
-
-#footer .copyright {
-    text-align: center;
-    padding-top: 30px;
-}
-
-#footer .credits {
-    padding-top: 10px;
-    text-align: center;
-    font-size: 13px;
-    color: #fff;
+    gap: 10px;
 }
