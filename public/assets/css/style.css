@@ -811,7 +811,7 @@ section {
 }
 
 .portfolio-item {
-    width: 320px;
+    width: 310px;
     transition: 0.3s;
     position: relative;
     overflow: hidden;

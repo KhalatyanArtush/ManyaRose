@@ -284,7 +284,7 @@
                 </div>
 
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-flowers">
+                <div class="col-lg-4 col-md-6 portfolio-item filter-bouquets">
                     <div class="img-fluid-block">
                          <img src="{{asset('assets/img/tulip.jpg')}}" class="img-fluid" alt="">
                      </div>
@@ -320,7 +320,25 @@
                      </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-flowers">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-bouquets">
+                    <div class="img-fluid-block">
+                         <img src="{{asset('assets/img/tulip.jpg')}}" class="img-fluid" alt="">
+                     </div>
+                     <div class="portfolio-info">
+                        <h4>Կակաչներ</h4>
+                         <h5>700դր / 1 հատ</h5>
+                         <div class="portfolio-links">
+                            <div>
+                               <a href="{{asset('assets/img/tulip.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ծաղիկ">Տեսնել Ավելին</i></a>
+                            </div>
+                            <div class='card-button'>
+                                <a href=''>Պատվիրել</a>
+                            </div>
+                        </div>
+                     </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-other">
                     <div class="img-fluid-block">
                          <img src="{{asset('assets/img/tulip.jpg')}}" class="img-fluid" alt="">
                      </div>
@@ -356,7 +374,7 @@
                      </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-flowers">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-other">
                     <div class="img-fluid-block">
                          <img src="{{asset('assets/img/tulip.jpg')}}" class="img-fluid" alt="">
                      </div>
@@ -374,25 +392,7 @@
                      </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-flowers">
-                    <div class="img-fluid-block">
-                         <img src="{{asset('assets/img/tulip.jpg')}}" class="img-fluid" alt="">
-                     </div>
-                     <div class="portfolio-info">
-                        <h4>Կակաչներ</h4>
-                         <h5>700դր / 1 հատ</h5>
-                         <div class="portfolio-links">
-                            <div>
-                               <a href="{{asset('assets/img/tulip.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ծաղիկ">Տեսնել Ավելին</i></a>
-                            </div>
-                            <div class='card-button'>
-                                <a href=''>Պատվիրել</a>
-                            </div>
-                        </div>
-                     </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-flowers">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-other">
                     <div class="img-fluid-block">
                          <img src="{{asset('assets/img/tulip.jpg')}}" class="img-fluid" alt="">
                      </div>
