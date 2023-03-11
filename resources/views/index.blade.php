@@ -27,6 +27,9 @@
 
     <!-- Template Main CSS File -->
     <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    
 
     <!-- =======================================================
     * Template Name: Gp - v4.10.0
@@ -48,17 +51,16 @@
 
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
-                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                <li><a class="nav-link scrollto" href="#about">About</a></li>
-                <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-                <li><a class="nav-link scrollto" href="#team">Team</a></li>
-                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                <li><a class="nav-link scrollto active" href="#hero">Գլխավոր</a></li>
+                <li><a class="nav-link scrollto" href="#about">Մեր մասին</a></li>
+                <li><a class="nav-link scrollto" href="#features">Ծառայություններ</a></li>
+                <li><a class="nav-link scrollto " href="#portfolio">Տեսականի</a></li>
+                <li><a class="nav-link scrollto" href="#contact">Կապ</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
 
-        <a href="#about" class="get-started-btn scrollto">Get Started</a>
+        <a href="#about" class="get-started-btn scrollto">Սկսել</a>
 
     </div>
 </header><!-- End Header -->
@@ -69,42 +71,32 @@
 
         <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
             <div class="col-xl-6 col-lg-8">
-                <h1>Powerful Digital Solutions With Gp<span>.</span></h1>
-                <h2>We are team of talented digital marketers</h2>
+                <h1>Ծաղիկների աշխարհ<span>.</span></h1>
+                <h2>Գեղեցիկ և թարմ ծաղիկների լայն տեսականի</h2>
             </div>
         </div>
 
         <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
             <div class="col-xl-2 col-md-4">
                 <div class="icon-box">
-                    <i class="ri-store-line"></i>
-                    <h3><a href="">Lorem Ipsum</a></h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" line-height='1' viewBox="0 0 24 24"><path fill="#ffc451" d="M3 13a9 9 0 0 0 9 9c0-5-4.03-9-9-9m9-7.5A2.5 2.5 0 0 1 14.5 8a2.5 2.5 0 0 1-2.5 2.5A2.5 2.5 0 0 1 9.5 8A2.5 2.5 0 0 1 12 5.5m-6.4 4.75a2.5 2.5 0 0 0 2.5 2.5c.53 0 1.02-.17 1.4-.44v.19A2.5 2.5 0 0 0 12 15a2.5 2.5 0 0 0 2.5-2.5v-.19c.38.27.87.44 1.4.44a2.5 2.5 0 0 0 2.5-2.5c0-1-.59-1.85-1.43-2.25c.84-.4 1.43-1.26 1.43-2.25a2.5 2.5 0 0 0-2.5-2.5c-.53 0-1.02.16-1.4.44V3.5A2.5 2.5 0 0 0 12 1a2.5 2.5 0 0 0-2.5 2.5v.19c-.38-.28-.87-.44-1.4-.44a2.5 2.5 0 0 0-2.5 2.5c0 .99.59 1.85 1.43 2.25c-.84.4-1.43 1.25-1.43 2.25M12 22a9 9 0 0 0 9-9c-5 0-9 4-9 9Z"/></svg>
+                    <h3><a href="">Թարմ ծաղիկներ և ծաղկեփնջեր</a></h3>
                 </div>
             </div>
             <div class="col-xl-2 col-md-4">
                 <div class="icon-box">
-                    <i class="ri-bar-chart-box-line"></i>
-                    <h3><a href="">Dolor Sitema</a></h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" line-height='1' viewBox="0 0 512 512"><path fill="#ffc451" d="M267.375 14.688c-17.09 6.94-30.576 17.288-38.75 29.593l-14.813-27.593c-9.017 49.344-12.52 95.085 32 109.563c-10.734 36.94-17.187 73.9-20.687 110.813l-20.563-38.344c-2.848-14.713-9.618-30.698-17.343-47l-17.376 74.124c-7.214-22.468-16.496-44.677-28.47-66.47c24.46-43.217 16.134-70.568-31.093-79.28c-.515 3.04-.56 9.344-.56 9.344l-19.876-8.75L87.5 100.53l-9.344-4.655c-5.433 42.254-.12 74.946 46.625 72.094a341.93 341.93 0 0 1 10.314 20.28L29.22 156.312c31.263 45.247 64.173 82.76 112.53 47.094c10.985 26.656 18.485 53.944 23.75 81.72l-64.78-40.188c12.872 36.068 28.203 67.286 66.936 52.437c1.237 7.446 2.306 14.926 3.28 22.438h18.876c-2.757-21.95-6.533-43.82-11.906-65.5c8.208-4.095 14.35-8.853 18.75-14.188c3.693 11.197 11.61 19.643 26.438 23.594c-1.097 18.71-1.506 37.414-1.438 56.092h18.688c-.014-4.07-.003-8.12.03-12.187c41.888-6.813 39.48-42.478 32.407-81.188l-31.967 59.625c.765-23.7 2.492-47.326 5.593-70.906c52.515 5.043 61.144-38.783 65.125-87.78l-61.81 65.843c3.47-20.563 8.06-41.09 14-61.564c37.544 4.596 76.884-35.765 75.28-70l-12.438 7.72c-1.053-11.96-6.674-25.51-17.125-40.69c-7.535 5.354-14.003 12.573-19.843 20.44L285.5 31.03l-11.688 14.595c-.32-10.47-2.17-20.77-6.437-30.938zm182.22 99.25c-4.994.008-10.98.86-18.25 2.906c-13.336 3.754-27.52 12.25-22.376 37.625c-24.488 13.127-45.408 31.122-62.25 53.155h-.19c.03.045.067.08.095.125c-.8 1.05-1.593 2.09-2.375 3.156l23.063-76.344c-45.938 31.743-83.94 65.165-45.438 114.75c-9.69 21.296-16.536 44.94-20.313 70.5h38.032c24.53-7.376 29.6-36.436 32.187-68.25l-48.155 51.282c6.766-30.55 18.424-57.235 34.406-79.47c36.727 42.145 77.18 14.898 118.033-19.81l-104.594 3.28c13.094-14.284 28.35-26.198 45.56-35.5c11.388 14.74 28.402 14.172 40.595 7.812c25.338-13.216 17.442-27.84 38.28-45.906c-20.892 5.264-19.352-19.358-46.31-19.313zM152.936 338.5l26.032 154.594h143.593L348.969 338.5H152.936z"/></svg>
+                
+                <h3><a href="">Սենյակային բույսեր</a></h3>
                 </div>
             </div>
             <div class="col-xl-2 col-md-4">
                 <div class="icon-box">
-                    <i class="ri-calendar-todo-line"></i>
-                    <h3><a href="">Sedare Perspiciatis</a></h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" line-height='1' viewBox="0 0 24 24"><path fill="#ffc451" d="M12 9c1.59 7.61-2 13-2 13h3c1.88-5.8 1-9.91.5-12m2.16-2.84c.17.21.34.43.47.66a7.1 7.1 0 0 1-.63 8.44a7.11 7.11 0 0 0-.55-6.49c-.08-.13-.17-.24-.25-.36a7.123 7.123 0 0 0-2.16-1.98a7.127 7.127 0 0 0-4.96 6.79c0 .74.11 1.45.31 2.11a7.073 7.073 0 0 1-1.33-4.14c0-2.35 1.14-4.43 2.89-5.73C8 6.35 6.46 6.67 5.12 7.5c-.62.41-1.16.88-1.62 1.41c.55-1.33 1.5-2.52 2.8-3.34c1.5-.94 3.2-1.25 4.84-1.01C10.73 4 10.23 3.47 9.63 3c-.58-.42-1.21-.76-1.87-1c1.44.04 2.88.5 4.11 1.43c.63.47 1.13 1.04 1.53 1.64c.1 0 .19-.01.29-.01c3.2 0 5.91 2.11 6.81 5.02a7.073 7.073 0 0 0-4.84-2.92Z"/></svg>
+                    <h3><a href="">Դեկորատիվ ծառեր</a></h3>
                 </div>
             </div>
-            <div class="col-xl-2 col-md-4">
-                <div class="icon-box">
-                    <i class="ri-paint-brush-line"></i>
-                    <h3><a href="">Magni Dolores</a></h3>
-                </div>
-            </div>
-            <div class="col-xl-2 col-md-4">
-                <div class="icon-box">
-                    <i class="ri-database-2-line"></i>
-                    <h3><a href="">Nemos Enimade</a></h3>
-                </div>
-            </div>
+            
         </div>
 
     </div>
@@ -142,25 +134,7 @@
     </section><!-- End About Section -->
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
-        <div class="container" data-aos="zoom-in">
-
-            <div class="clients-slider swiper">
-                <div class="swiper-wrapper align-items-center">
-                    <div class="swiper-slide"><img src="{{asset('assets/img/clients/client-1.png')}}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{asset('assets/img/clients/client-2.png')}}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{asset('assets/img/clients/client-3.png')}}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{asset('assets/img/clients/client-4.png')}}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{asset('assets/img/clients/client-5.png')}}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{asset('assets/img/clients/client-6.png')}}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{asset('assets/img/clients/client-7.png')}}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{asset('assets/img/clients/client-8.png')}}" class="img-fluid" alt=""></div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-
-        </div>
-    </section><!-- End Clients Section -->
+    
 
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
@@ -196,7 +170,7 @@
     </section><!-- End Features Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <!-- <section id="services" class="services">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
@@ -256,399 +230,205 @@
             </div>
 
         </div>
-    </section><!-- End Services Section -->
+    </section>End Services Section -->
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
         <div class="container" data-aos="zoom-in">
 
             <div class="text-center">
-                <h3>Call To Action</h3>
-                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a class="cta-btn" href="#">Call To Action</a>
+                <h3>Սիրով սպասում ենք</h3>
+                <p> Ծաղիկների, սենյակային բույսերի և դեկորատիվ ծառերի ամենագեղեցիկ և թարմ տեսականին մեզ մոտ </p>
             </div>
 
         </div>
     </section><!-- End Cta Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+
+     <section id="portfolio" class="portfolio"> 
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Portfolio</h2>
-                <p>Check our Portfolio</p>
+                <h2>Ամբողջը</h2>
             </div>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <ul id="portfolio-flters">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-card">Card</li>
-                        <li data-filter=".filter-web">Web</li>
+                        <li data-filter="*" class="filter-active">Ամբողջը</li>
+                        <li data-filter=".filter-flowers">Ծաղիկներ</li>
+                        <li data-filter=".filter-bouquets">Ծաղկեփնջեր</li>
+                        <li data-filter=".filter-other">Սենյակային բույսեր և դեկորատիվ ծառեր</li>
                     </ul>
                 </div>
             </div>
 
-            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="row-portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('assets/img/portfolio/portfolio-1.jpg')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 1</h4>
-                            <p>App</p>
-                            <div class="portfolio-links">
-                                <a href="{{asset('assets/img/portfolio/portfolio-1.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-flowers">
+                    <div class="img-fluid-block">
+                         <img src="{{asset('assets/img/tulip.jpg')}}" class="img-fluid" alt="">
+                     </div>
+                     <div class="portfolio-info">
+                        <h4>Կակաչներ</h4>
+                         <h5>700դր / 1 հատ</h5>
+                         <div class="portfolio-links">
+                            <div>
+                               <a href="{{asset('assets/img/tulip.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ծաղիկ">Տեսնել Ավելին</i></a>
+                            </div>
+                            <div class='card-button'>
+                                <a href=''>Պատվիրել</a>
                             </div>
                         </div>
-                    </div>
+                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('assets/img/portfolio/portfolio-2.jpg')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
-                            <div class="portfolio-links">
-                                <a href="{{asset('assets/img/portfolio/portfolio-2.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-bouquets">
+                    <div class="img-fluid-block">
+                         <img src="{{asset('assets/img/tulip.jpg')}}" class="img-fluid" alt="">
+                     </div>
+                     <div class="portfolio-info">
+                        <h4>Կակաչներ</h4>
+                         <h5>700դր / 1 հատ</h5>
+                         <div class="portfolio-links">
+                            <div>
+                               <a href="{{asset('assets/img/tulip.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ծաղիկ">Տեսնել Ավելին</i></a>
+                            </div>
+                            <div class='card-button'>
+                                <a href=''>Պատվիրել</a>
                             </div>
                         </div>
+                     </div>
                     </div>
-                </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('assets/img/portfolio/portfolio-3.jpg')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 2</h4>
-                            <p>App</p>
-                            <div class="portfolio-links">
-                                <a href="{{asset('assets/img/portfolio/portfolio-3.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-flowers">
+                    <div class="img-fluid-block">
+                         <img src="{{asset('assets/img/tulip.jpg')}}" class="img-fluid" alt="">
+                     </div>
+                     <div class="portfolio-info">
+                        <h4>Կակաչներ</h4>
+                         <h5>700դր / 1 հատ</h5>
+                         <div class="portfolio-links">
+                            <div>
+                               <a href="{{asset('assets/img/tulip.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ծաղիկ">Տեսնել Ավելին</i></a>
+                            </div>
+                            <div class='card-button'>
+                                <a href=''>Պատվիրել</a>
                             </div>
                         </div>
+                     </div>
                     </div>
-                </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('assets/img/portfolio/portfolio-4.jpg')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 2</h4>
-                            <p>Card</p>
-                            <div class="portfolio-links">
-                                <a href="{{asset('assets/img/portfolio/portfolio-4.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-bouquets">
+                    <div class="img-fluid-block">
+                         <img src="{{asset('assets/img/tulip.jpg')}}" class="img-fluid" alt="">
+                     </div>
+                     <div class="portfolio-info">
+                        <h4>Կակաչներ</h4>
+                         <h5>700դր / 1 հատ</h5>
+                         <div class="portfolio-links">
+                            <div>
+                               <a href="{{asset('assets/img/tulip.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ծաղիկ">Տեսնել Ավելին</i></a>
+                            </div>
+                            <div class='card-button'>
+                                <a href=''>Պատվիրել</a>
                             </div>
                         </div>
+                     </div>
                     </div>
-                </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 2</h4>
-                            <p>Web</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-other">
+                    <div class="img-fluid-block">
+                         <img src="{{asset('assets/img/tulip.jpg')}}" class="img-fluid" alt="">
+                     </div>
+                     <div class="portfolio-info">
+                        <h4>Կակաչներ</h4>
+                         <h5>700դր / 1 հատ</h5>
+                         <div class="portfolio-links">
+                            <div>
+                               <a href="{{asset('assets/img/tulip.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ծաղիկ">Տեսնել Ավելին</i></a>
+                            </div>
+                            <div class='card-button'>
+                                <a href=''>Պատվիրել</a>
                             </div>
                         </div>
+                     </div>
                     </div>
-                </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 3</h4>
-                            <p>App</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-flowers">
+                    <div class="img-fluid-block">
+                         <img src="{{asset('assets/img/tulip.jpg')}}" class="img-fluid" alt="">
+                     </div>
+                     <div class="portfolio-info">
+                        <h4>Կակաչներ</h4>
+                         <h5>700դր / 1 հատ</h5>
+                         <div class="portfolio-links">
+                            <div>
+                               <a href="{{asset('assets/img/tulip.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ծաղիկ">Տեսնել Ավելին</i></a>
+                            </div>
+                            <div class='card-button'>
+                                <a href=''>Պատվիրել</a>
                             </div>
                         </div>
+                     </div>
                     </div>
-                </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 1</h4>
-                            <p>Card</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-other">
+                    <div class="img-fluid-block">
+                         <img src="{{asset('assets/img/tulip.jpg')}}" class="img-fluid" alt="">
+                     </div>
+                     <div class="portfolio-info">
+                        <h4>Կակաչներ</h4>
+                         <h5>700դր / 1 հատ</h5>
+                         <div class="portfolio-links">
+                            <div>
+                               <a href="{{asset('assets/img/tulip.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ծաղիկ">Տեսնել Ավելին</i></a>
+                            </div>
+                            <div class='card-button'>
+                                <a href=''>Պատվիրել</a>
                             </div>
                         </div>
+                     </div>
                     </div>
-                </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 3</h4>
-                            <p>Card</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-other">
+                    <div class="img-fluid-block">
+                         <img src="{{asset('assets/img/tulip.jpg')}}" class="img-fluid" alt="">
+                     </div>
+                     <div class="portfolio-info">
+                        <h4>Կակաչներ</h4>
+                         <h5>700դր / 1 հատ</h5>
+                         <div class="portfolio-links">
+                            <div>
+                               <a href="{{asset('assets/img/tulip.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ծաղիկ">Տեսնել Ավելին</i></a>
+                            </div>
+                            <div class='card-button'>
+                                <a href=''>Պատվիրել</a>
                             </div>
                         </div>
+                     </div>
                     </div>
                 </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
-
         </div>
-    </section><!-- End Portfolio Section -->
 
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-        <div class="container" data-aos="fade-up">
+             
 
-            <div class="row no-gutters">
-                <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
-                <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
-                    <div class="content d-flex flex-column justify-content-center">
-                        <h3>Voluptatem dignissimos provident quasi</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                        </p>
-                        <div class="row">
-                            <div class="col-md-6 d-md-flex align-items-md-stretch">
-                                <div class="count-box">
-                                    <i class="bi bi-emoji-smile"></i>
-                                    <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="2" class="purecounter"></span>
-                                    <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
-                                </div>
-                            </div>
 
-                            <div class="col-md-6 d-md-flex align-items-md-stretch">
-                                <div class="count-box">
-                                    <i class="bi bi-journal-richtext"></i>
-                                    <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="2" class="purecounter"></span>
-                                    <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
-                                </div>
-                            </div>
+             </div>
+    </section> 
 
-                            <div class="col-md-6 d-md-flex align-items-md-stretch">
-                                <div class="count-box">
-                                    <i class="bi bi-clock"></i>
-                                    <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="4" class="purecounter"></span>
-                                    <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate non vel</p>
-                                </div>
-                            </div>
 
-                            <div class="col-md-6 d-md-flex align-items-md-stretch">
-                                <div class="count-box">
-                                    <i class="bi bi-award"></i>
-                                    <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="4" class="purecounter"></span>
-                                    <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- End .content-->
-                </div>
-            </div>
-
-        </div>
-    </section><!-- End Counts Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-        <div class="container" data-aos="zoom-in">
-
-            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                <div class="swiper-wrapper">
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                            <h3>Saul Goodman</h3>
-                            <h4>Ceo &amp; Founder</h4>
-                            <p>
-                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                            </p>
-                        </div>
-                    </div><!-- End testimonial item -->
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                            <h3>Sara Wilsson</h3>
-                            <h4>Designer</h4>
-                            <p>
-                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                            </p>
-                        </div>
-                    </div><!-- End testimonial item -->
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                            <h3>Jena Karlis</h3>
-                            <h4>Store Owner</h4>
-                            <p>
-                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                            </p>
-                        </div>
-                    </div><!-- End testimonial item -->
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                            <h3>Matt Brandon</h3>
-                            <h4>Freelancer</h4>
-                            <p>
-                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                            </p>
-                        </div>
-                    </div><!-- End testimonial item -->
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                            <h3>John Larson</h3>
-                            <h4>Entrepreneur</h4>
-                            <p>
-                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                            </p>
-                        </div>
-                    </div><!-- End testimonial item -->
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-
-        </div>
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
-        <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-                <h2>Team</h2>
-                <p>Check our Team</p>
-            </div>
-
-            <div class="row">
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                    <div class="member" data-aos="fade-up" data-aos-delay="100">
-                        <div class="member-img">
-                            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>Walter White</h4>
-                            <span>Chief Executive Officer</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                    <div class="member" data-aos="fade-up" data-aos-delay="200">
-                        <div class="member-img">
-                            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>Sarah Jhonson</h4>
-                            <span>Product Manager</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                    <div class="member" data-aos="fade-up" data-aos-delay="300">
-                        <div class="member-img">
-                            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>William Anderson</h4>
-                            <span>CTO</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                    <div class="member" data-aos="fade-up" data-aos-delay="400">
-                        <div class="member-img">
-                            <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>Amanda Jepson</h4>
-                            <span>Accountant</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section><!-- End Team Section -->
+  
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Contact</h2>
-                <p>Contact Us</p>
+                <h2>Կապ</h2>
+                <p>Կապ մեզ հետ</p>
             </div>
 
             <div>
@@ -657,53 +437,30 @@
 
             <div class="row mt-5">
 
-                <div class="col-lg-4">
-                    <div class="info">
-                        <div class="address">
-                            <i class="bi bi-geo-alt"></i>
-                            <h4>Location:</h4>
-                            <p>A108 Adam Street, New York, NY 535022</p>
-                        </div>
-
-                        <div class="email">
-                            <i class="bi bi-envelope"></i>
-                            <h4>Email:</h4>
-                            <p>info@example.com</p>
-                        </div>
-
-                        <div class="phone">
-                            <i class="bi bi-phone"></i>
-                            <h4>Call:</h4>
-                            <p>+1 5589 55488 55s</p>
-                        </div>
-
-                    </div>
-
-                </div>
-
+              
                 <div class="col-lg-8 mt-5 mt-lg-0">
 
                     <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Անուն" required>
                             </div>
                             <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Էլ․ հասցե" required>
                             </div>
                         </div>
                         <div class="form-group mt-3">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Թեմա" required>
                         </div>
                         <div class="form-group mt-3">
-                            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                            <textarea class="form-control" name="message" rows="5" placeholder="Նամակ" required></textarea>
                         </div>
                         <div class="my-3">
                             <div class="loading">Loading</div>
                             <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                            <div class="sent-message">Ձեր նամակը հաջողությամբ ուղարկված է։ Շնորհակալություն</div>
                         </div>
-                        <div class="text-center"><button type="submit">Send Message</button></div>
+                        <div class="text-center"><button type="submit">Ուղարկել նամակ</button></div>
                     </form>
 
                 </div>
@@ -718,73 +475,31 @@
 <!-- ======= Footer ======= -->
 <footer id="footer">
     <div class="footer-top">
-        <div class="container">
-            <div class="row">
-
+        <div class="footer-container">
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-info">
                         <h3>Gp<span>.</span></h3>
-                        <p>
-                            A108 Adam Street <br>
-                            NY 535022, USA<br><br>
-                            <strong>Phone:</strong> +1 5589 55488 55<br>
-                            <strong>Email:</strong> info@example.com<br>
-                        </p>
-                        <div class="social-links mt-3">
-                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                            <div class="social-links mt-3">
                             <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                             <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                        </div>
+                             </div>
                     </div>
                 </div>
-
-                <div class="col-lg-2 col-md-6 footer-links">
-                    <h4>Useful Links</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Our Services</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-4 col-md-6 footer-newsletter">
-                    <h4>Our Newsletter</h4>
-                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                    <form action="" method="post">
-                        <input type="email" name="email"><input type="submit" value="Subscribe">
-                    </form>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="copyright">
-            &copy; Copyright <strong><span>Gp</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+         
+                <div class="col-lg-4">
+                     <div class="info">
+                        <div class="email">
+                             <i class="bi bi-envelope"></i>
+                             <h4>էլ․ հասցե:</h4>
+                            <p>info@example.com</p>
+                         </div>
+                        <div class="phone">
+                                <i class="bi bi-phone"></i>
+                                <h4>Հեռ:</h4>
+                                <p>+1 5589 55488 55</p>
+                        </div>
+                 </div>
+             </div>
         </div>
     </div>
 </footer><!-- End Footer -->
